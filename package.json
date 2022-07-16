@@ -1,0 +1,40 @@
+{
+  "name": "cleaning_x",
+  "version": "1.0.0",
+  "description": "��1\u0000.\u0000 \u0000H\u0000T\u0000M\u0000L\u00005\u0000 \u0000/\u0000 \u0000P\u0000U\u0000G\u0000\r\u0000 \u00002\u0000.\u0000 \u0000C\u0000S\u0000S\u00003\u0000 \u0000/\u0000 \u0000S\u0000A\u0000S\u0000S\u0000 \u0000(\u0000G\u0000r\u0000i\u0000d\u0000 \u0000l\u0000a\u0000y\u0000o\u0000u\u0000t\u0000)\u0000\r\u0000 \u00003\u0000.\u0000 \u0000J\u0000S\u0000\r\u0000 \u00004\u0000.\u0000 \u0000W\u0000e\u0000b\u0000p\u0000a\u0000c\u0000k\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&&webpack serve --open",
+    "dev": "set NODE_ENV=development&&webpack",
+    "build": "set NODE_ENV=production&&webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samolazoff/cleaning_X.git"
+  },
+  "author": "Samolazoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samolazoff/cleaning_X/issues"
+  },
+  "homepage": "https://github.com/samolazoff/cleaning_X#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.14",
+    "postcss-loader": "^7.0.0",
+    "postcss-preset-env": "^7.7.1",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "pug-webpack-plugin": "^0.1.0",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
