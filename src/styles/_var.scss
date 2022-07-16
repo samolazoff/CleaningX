@@ -62,7 +62,7 @@
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
-    color: #211F54;
+    color: #6E7191;
 }
 .btn_blue{
     font-family: 'Roboto';
@@ -80,4 +80,16 @@
     background: url("../images/tel.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+.subtitle{
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #211F54;
+}
+.subtitle_white{
+    color: #FFFFFF;
 }
