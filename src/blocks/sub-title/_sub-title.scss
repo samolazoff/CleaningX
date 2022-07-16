@@ -1,0 +1,24 @@
+.sub-title__bg{
+    grid-column: 7 / 13;
+    height: 720px;
+    background: url("../images/sub-title-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sub-title-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    grid-column: 1 / 7;
+    padding-right: 85px;
+
+}
+.sub-title__txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #6E7191;
+}
