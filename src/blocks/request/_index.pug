@@ -1,0 +1,31 @@
+section.request.wrap
+    .request-info 
+        h2.subtitle Request a free cleaning quote today
+        p.request-info__txt In dignissim euismod pretium amet enim a eu nam ut urna accumsan pellentesque lacus duis pharetra eutortor.
+        include ../../pug/libs/_btnCol
+    form.form-page(action="")
+        .wrap-input
+            label(for="Full name") Full name 
+            input(type="text", name="Full name")
+        .wrap-input
+            label(for="Phone number") Phone number
+            input(type="tel", name="Phone number")
+        .wrap-input
+            label(for="Address") Address
+            input(type="text", name="Address")
+        .wrap-input
+            label(for="Email") Email
+            input(type="email", name="Email")
+        .wrap-input
+            label(for="Requested service") Requested service
+            select(name="Requested service")
+                option(value="Home") Home
+                option(value="Office") Office
+                option(value="Industrial") Industrial
+        .wrap-input
+            label(for="Day of service") Day of service
+            input(type="date", name="Day of service")
+        .wrap-input
+            label(for="Add a note") Add a note
+            textarea(name="Add a note") 
+        input(type="submit", value="Submit message")
